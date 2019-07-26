@@ -71,6 +71,7 @@ export class PostComponent implements OnInit {
   }
   cb2=(dt)=>{
     // console.log(dt)
+    Swal.fire('Done', 'Your Vote Have Been Added', 'success');
     this.getAllPosts();
   }
 }
