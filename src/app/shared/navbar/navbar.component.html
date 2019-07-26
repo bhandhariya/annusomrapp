@@ -1,0 +1,37 @@
+<mat-sidenav-container>
+   
+    <mat-sidenav-content>
+      <mat-toolbar color="primary">
+       <div fxHide.gt-xs>
+         <button mat-icon-button>
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+       <div>
+         <a>
+            Jalal Technologies Task App
+         </a>
+       </div>
+       <div fxFlex fxLayout fxLayoutAlign="flex-end"  fxHide.xs>
+          <ul fxLayout fxLayoutGap="20px" class="navigation-items">
+            
+              <li>
+                <a >
+                    <mat-icon class="icon">home</mat-icon>
+                    <span class="label">Home</span>
+                </a>
+              </li>
+              <li>
+                  <a routerLink="post">
+                      <mat-icon class="icon">dashboard</mat-icon>
+                      <span class="label">Post</span>
+                  </a>
+                </li>
+           
+          </ul>
+       </div>
+      </mat-toolbar>
+      <main>
+      </main>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
